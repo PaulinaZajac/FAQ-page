@@ -1,0 +1,39 @@
+.faq-container {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: nowrap;
+
+  margin-top: 8vh;
+  padding: 6vh;
+  width: 920px;
+  height: 509px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 23px;
+}
+
+.faq-image-woman {
+  width: 472px;
+  height: 359px;
+}
+
+.faq-text {
+  margin-left: 80px;
+  font-family: 'Inter', sans-serif;
+}
+
+.faq-text-header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  /* font-family: 'Kumbh Sans'; */
+  font-weight: 800;
+}
+
+.faq-text-question {
+  font-size: 14px;
+  /* font-family: 'Kumbh Sans'; */
+}
+
+.faq-questions {
+  width: 400px;
+}
