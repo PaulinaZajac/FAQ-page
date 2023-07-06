@@ -7,11 +7,10 @@ import './Page.css';
 const Page = () => {
   return (
     <div className="faq-container">
-      <div className="faq-image-desktop">
+      <div className="faq-image">
         <FaqImage />
       </div>
-      <div className="faq-text">
-        {/* <div className="faq-text-header">FAQ</div> */}
+      <div className="faq-content">
         <FaqQuestion />
       </div>
     </div>
