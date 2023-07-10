@@ -20,9 +20,11 @@ const FaqQuestion = () => {
           <div className="item">
             <div className="title" onClick={() => toggle(i)}>
               <h2>{item.question}</h2>
-
+            </div>
+            <div className="arrow">
               <img src={faqQuestionArrow} alt=""></img>
             </div>
+
             <div className={selected === i ? 'content show' : 'content'}>
               {item.answer}
             </div>

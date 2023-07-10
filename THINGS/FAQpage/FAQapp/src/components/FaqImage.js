@@ -7,7 +7,6 @@ const FaqImage = () => {
   return (
     <div className="faq-image-woman">
       <img src={faqImageDesktop} alt="woman" />
-      {/* <img src={FaqPatternDesktop} alt="" /> */}
     </div>
   );
 };
