@@ -1,5 +1,5 @@
 import React from 'react';
-import FaqImage from './FaqImage';
+import FaqImageWoman from './FaqImage';
 import FaqQuestion from './FaqQuestion';
 
 import './Page.css';
@@ -7,12 +7,9 @@ import './Page.css';
 const Page = () => {
   return (
     <div className="faq-container">
-      <div className="faq-image">
-        <FaqImage />
-      </div>
-      <div className="faq-content">
-        <FaqQuestion />
-      </div>
+      <FaqImageWoman />
+
+      <FaqQuestion />
     </div>
   );
 };
