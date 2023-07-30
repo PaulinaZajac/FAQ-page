@@ -12,16 +12,17 @@ const FaqQuestion = () => {
 
     setSelected(i);
   };
+
   return (
     <div className="faq-text-wrapper">
-      <div className="faq-questions">
-        <div className="faq-text-header">FAQ</div>
-        {data.map((item, i) => (
+      <div className="faq-text-header">FAQ</div>
+      {data.map((item, i) => {
+        return (
           <div className="item">
             <div className="title" onClick={() => toggle(i)}>
               <h2>{item.question}</h2>
             </div>
-            <div className="arrow">
+            <div className={selected === i ? 'arrow-top' : 'arrow'}>
               <img src={faqQuestionArrow} alt=""></img>
             </div>
 
@@ -29,8 +30,8 @@ const FaqQuestion = () => {
               {item.answer}
             </div>
           </div>
-        ))}
-      </div>
+        );
+      })}
     </div>
   );
 };
